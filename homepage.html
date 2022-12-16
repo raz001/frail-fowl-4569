@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="homepage.css" >
+</head>
+<body>
+  <div id="header-container">
+    <div id="header">
+      <div class="logo">
+        <img src="https://in.sugarcosmetics.com/desc-images/SUGARLogo1.png" alt="" />
+      </div>
+      <div class="searchbar">
+        <input
+          type="text"
+          class="search_input"
+          placeholder='Try "Liquid Lipstick"'
+        />
+        <a href="" class="search_icon">Search</a>
+      </div>
+      <div class="login_btn">
+        <img
+          src="https://t4.ftcdn.net/jpg/00/65/77/27/240_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg"
+          alt=""
+        />
+
+        <div onclick="window.location.href='login.html'">LOGIN/</div>
+        <div onclick="window.location.href='signup.html'">REGISTER</div>
+
+
+      </div>
+
+      <div class="cute_btn">
+
+          <img id="wishlist"
+            src="https://cdn-icons-png.flaticon.com/128/1077/1077086.png"
+            alt="wishlist"
+            placeholder="Wishlist"
+          />
+          <img  id="cart"
+            src="https://cdn-icons-png.flaticon.com/512/726/726564.png"
+            alt="cart"
+            placeholder="cart"
+          />
+
+      </div>
+    </div>
+
+    <div id="home_nav">
+      <ul>
+        <li>
+          <a href="makeup.html" class="nav_link" style="padding-left: 20px">
+            MAKEUP</a
+          >
+          <div class="dropdown-makeup">
+            <ul>
+              <li>
+                LIPS
+              </li>
+              <li>
+                FACE
+              </li>
+              <li>
+                EYES
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="brush.html" class="nav_link">BRUSHES</a>
+          <div class="dropdown-makeup">
+            <ul>
+              <li>FACE BRUSHES</li>
+              <li>EYE BRUSHES</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="" class="nav_link"> SKINCARE </a>
+          <div class="dropdown-makeup">
+            <ul>
+              <li>MOISTURIZERS</li>
+              <li>MASKS</li>
+              <li>SETTING MISTS</li>
+              <li>COFFEE CULTURE RANGE</li>
+              <li>SHEET MASK COMBO</li>
+            </ul>
+          </div>
+        </li>
+       
+        <li>
+          <a href="" class="nav_link">BLOG </a>
+          <div class="dropdown-makeup">
+            <ul>
+              <li>FEATURED</li>
+              <li>MAKEUP</li>
+              <li>SKINCARE</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="" class="nav_link">OFFERS</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+   <!--------------SLIDESHOW--------------->
+   <div class="slideshow-container">
+
+    <div class="mySlides ">
+      <div class="numbertext"></div>
+      <img style="background-image: contain; "src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F6b7bf5ff-c632-4b95-abaf-408c1c0d6edd.jpg&w=1920&q=75" style="width:100%">
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F326d1e4e-1c75-4b56-8533-0db3902a5815.jpg&w=1920&q=75" style="width:100%">
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F1e69c5f7-2df9-4c42-bf08-22b6b68779e0.jpg&w=1920&q=75" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fa7bfdf05-ad0e-4c24-ab48-7ff64e9115b8.jpg&w=1920&q=75" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fbcd1e4c1-fbaa-486c-86ed-07048ad3a3f9.jpg&w=1920&q=75" style="width:100%">
+      <div class="text"></div>
+    </div>
+  </div>
+  <div style="text-align:center; background-color: #f8f9fa; padding:10px;">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+</body>
+</html>
+<script>
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
