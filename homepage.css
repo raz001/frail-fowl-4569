@@ -189,3 +189,166 @@
   display: inline-block;
    transition: background-color 0.1s ease; 
 }
+
+#bestseller,
+#giftsets {
+  height: 600px;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: 0 auto;
+}
+.title {
+  font-weight: lighter;
+  padding: 26px;
+  margin: 0px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+.card-content {
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+h1 {
+  font-weight: 100px;
+  padding: 20px;
+  margin: 0px;
+  line-height: 50px;
+  text-align: center;
+}
+.card-content > .card {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+}
+.card-01 {
+  height: 400px;
+  width: 25%;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card-01 > img {
+  height: 66%;
+  width: 60%;
+}
+.card-01:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h5 {
+  margin-top: 4px;
+}
+h1 {
+  margin: 0px 2px;
+}
+.card-01 > button {
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+  height: 12%;
+  color: #f5f5f5;
+  background-color: #212529;
+}
+button:hover {
+  background-color: #ff0a54;
+  border: 0px;
+}
+#hotdeals {
+  height: 320px;
+  width: 100%;
+  background-color:#FFFFFF;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.deals {
+  height: 100%;
+  width: 33%;
+  margin: 0 20px;
+}
+.deals > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.deals > img:hover {
+  cursor: pointer;
+}
+
+#sukhar {
+  width: 80%;
+  margin: auto;
+}
+#sukhar img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* explore starts here */
+#explore {
+  height: 300px;
+  width: 95%;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: auto;
+}
+.explore-container {
+  height: 206px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.explore-container > .img-responsive {
+  height: 100%;
+  width: 100%;
+  margin: 5px auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+}
+/* referral */
+#refer {
+width: 95%;
+margin: auto;
+}
+#refer img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#thisorthat {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 30px;
+}
+
+.this-container img {
+width: 100%;
+height: 432px;
+border-radius: 10px;
+cursor: pointer;
+}
+#beautyblog {
+  height: 400px;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: 0 auto;
+}
+.blog-container {
+height: 400px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+background-color: #f5f5f5;
+}
+.blog-container > .img-responsive {
+height: 400px;
+width: 30%;
+padding: 0px 30px;
+border-radius: 10px;
+}
