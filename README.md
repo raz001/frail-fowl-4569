@@ -38,6 +38,7 @@ Sugar Cosmetics is a leading beauty brand offering a wide range of high-quality 
  <li>Clear navigation menu to help users easily access different sections of the website. </li>
 <li>Featured products or promotions to attract attention and encourage exploration. </li>
 </ul>
+![Screenshot (288)](https://github.com/raz001/sugar-cosmetics-clone/assets/113996716/cc024604-2378-42b7-ba59-b1275c97f54c)
 
 **Signup:** The signup page enables users to create an account on the Sugar Cosmetics platform.The signup page includes:
 <ul>
