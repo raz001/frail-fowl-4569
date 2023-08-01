@@ -38,14 +38,13 @@ Sugar Cosmetics is a leading beauty brand offering a wide range of high-quality 
  <li>Clear navigation menu to help users easily access different sections of the website. </li>
 <li>Featured products or promotions to attract attention and encourage exploration. </li>
 </ul>
-![Screenshot (288)](https://github.com/raz001/sugar-cosmetics-clone/assets/113996716/cc024604-2378-42b7-ba59-b1275c97f54c)
+<img src="https://github.com/raz001/sugar-cosmetics-clone/assets/113996716/cc024604-2378-42b7-ba59-b1275c97f54c"/>
 
 **Signup:** The signup page enables users to create an account on the Sugar Cosmetics platform.The signup page includes:
 <ul>
   <li>A user-friendly form for entering essential details like name, email address, and password.</li>
  <li>Validation checks to ensure data accuracy and completeness. </li>
 </ul>
-
 
 **Makeup Page - List of Products:** The makeup page displays a comprehensive list of makeup products offered by Sugar Cosmetics. This section allows users to explore the extensive product catalog conveniently. The makeup page features:
 
@@ -54,7 +53,7 @@ Sugar Cosmetics is a leading beauty brand offering a wide range of high-quality 
  <li>Sorting options to organize products based on various criteria, such as price, relevance.</li>
    <li>Filtering capabilities to narrow down product results based on categories (e.g., foundation, lipstick, eyeshadow).</li>
 </ul>
-
+<img src="https://github.com/raz001/sugar-cosmetics-clone/assets/113996716/3d19b193-c34d-4e70-a1ae-95a67ff02304"/>
 
 ### Built With
 <ul>
