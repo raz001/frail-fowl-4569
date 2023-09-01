@@ -9,7 +9,8 @@ body {
     display: block;
     overflow: hidden;
     height: 600px;
-    width: 91%;
+    width: 100%;
+    margin-top: 50px;
   }
   #footer {
     color: rgb(133, 128, 128);
