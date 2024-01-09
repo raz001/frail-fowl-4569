@@ -6,7 +6,7 @@
 
 <h1 align="center">"Beauty and Cosmetics Site"  </h1>
 <h3 align="center">
-	<a href="https://tourmaline-llama-a87a00.netlify.app/">Live URL</a>
+	<a href="https://sugar-shop.netlify.app/">Live URL</a>
 </h3>
   
 <!-- TABLE OF CONTENTS -->
